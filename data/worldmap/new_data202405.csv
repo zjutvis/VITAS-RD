@@ -1,0 +1,199 @@
+Region,RegionLabel,Color,ColorGroup,cone,num,peer_connections,p2c_connections,c2p_connections,total_connections
+Afghanistan,AF,#fbb4ae,3,141,42,18,57,76,151
+Albania,AL,#fbb4ae,3,220,63,40,87,137,264
+Algeria,DZ,#b3cde3,1,16,8,7,8,17,32
+Andorra,AD,#ccebc5,5,1,1,33,0,6,39
+Angola,AO,#decbe4,0,2573,37,605,169,70,844
+Antigua & Barbuda,AG,#fed9a6,2,1214,7,340,137,16,493
+Argentina,AR,#ccebc5,5,3621,904,258,1627,1790,3675
+Armenia,AM,#fed9a6,2,339,67,1505,117,132,1754
+Australia,AU,#ffffcc,4,6170,1153,8101,1623,2219,11943
+Austria,AT,#fed9a6,2,2018,431,9727,680,849,11256
+Azerbaijan,AZ,#fbb4ae,3,507,57,232,87,91,410
+"Bahamas, The",BS,#ffffcc,4,17,7,1,9,22,32
+Bahrain,BH,#decbe4,0,166,18,407,54,57,518
+Bangladesh,BD,#fed9a6,2,5119,1109,734,1930,2011,4675
+Barbados,BB,#b3cde3,1,17,6,0,11,8,19
+Belarus,BY,#fed9a6,2,315,57,480,89,98,667
+Belgium,BE,#b3cde3,1,912,227,2184,226,505,2915
+Belize,BZ,#fbb4ae,3,43,25,25,14,45,84
+Benin,BJ,#fbb4ae,3,27,12,2,11,24,37
+Bhutan,BT,#b3cde3,1,27,9,9,9,14,32
+Bolivia,BO,#b3cde3,1,106,36,5,51,75,131
+Bosnia & Herzegovina,BA,#fed9a6,2,113,40,69,56,74,199
+Botswana,BW,#fbb4ae,3,43,19,398,16,29,443
+Brazil,BR,#fed9a6,2,45186,7714,38022,14489,15712,68223
+Brunei,BN,#fbb4ae,3,18,7,14,10,11,35
+Bulgaria,BG,#b3cde3,1,1883,432,4378,730,1020,6128
+Burkina Faso,BF,#fed9a6,2,69,17,3513,30,44,3587
+Burma,MM,#fbb4ae,3,434,101,432,192,236,860
+Burundi,BI,#b3cde3,1,16,7,0,7,14,21
+Cabo Verde,CV,#decbe4,0,7,3,4,1,5,10
+Cambodia,KH,#b3cde3,1,253,84,1695,109,210,2014
+Cameroon,CM,#b3cde3,1,59,15,2,27,31,60
+Canada,CA,#ffffcc,4,3945,1176,4891,1646,2696,9233
+Central African Rep,CF,#decbe4,0,2,2,0,0,6,6
+Chad,TD,#fed9a6,2,22,11,0,9,23,32
+Chile,CL,#fbb4ae,3,824,240,239,313,469,1021
+China,CN,#decbe4,0,2137,493,582,855,1038,2475
+Colombia,CO,#ffffcc,4,8157,194,485,425,384,1294
+Comoros,KM,#decbe4,0,2,2,14,0,4,18
+"Congo, Dem Rep of the",CD,#ffffcc,4,54,26,4,25,65,94
+"Congo, Rep of the",CG,#fbb4ae,3,26,7,16,15,10,41
+Costa Rica,CR,#decbe4,0,145,57,6,60,112,178
+Cote d'Ivoire,CI,#ffffcc,4,41,14,71,21,27,119
+Croatia,HR,#b3cde3,1,486,87,80,135,194,409
+Cuba,CU,#decbe4,0,5,3,0,2,5,7
+Cyprus,CY,#fbb4ae,3,175,71,1656,68,194,1918
+Czechia,CZ,#b3cde3,1,1838,498,2179,688,887,3754
+Denmark,DK,#fbb4ae,3,1094,252,2790,361,439,3590
+Djibouti,DJ,#decbe4,0,21,1,1,13,5,19
+Dominica,DM,#ffffcc,4,9,3,0,3,5,8
+Dominican Republic,DO,#b3cde3,1,312,101,17,127,169,313
+Ecuador,EC,#fbb4ae,3,358,138,14,125,256,395
+Egypt,EG,#ffffcc,4,213,51,86,123,116,325
+El Salvador,SV,#ffffcc,4,47,31,0,13,49,62
+Equatorial Guinea,GQ,#fed9a6,2,12,6,18,5,9,32
+Eritrea,ER,#ffffcc,4,1,1,0,0,2,2
+Estonia,EE,#ffffcc,4,227,107,409,93,228,730
+Ethiopia,ET,#b3cde3,1,3,2,0,0,7,7
+Fiji,FJ,#ccebc5,5,32,7,41,11,19,71
+Finland,FI,#ccebc5,5,839,238,948,331,395,1674
+France,FR,#fbb4ae,3,12999,1085,16642,1554,2360,20556
+Gabon,GA,#ccebc5,5,13,10,1,1,14,16
+"Gambia, The",GM,#ccebc5,5,12,10,1,2,23,26
+Georgia,GE,#decbe4,0,344,93,124,134,167,425
+Germany,DE,#ccebc5,5,9038,1769,34158,2621,4023,40802
+Ghana,GH,#b3cde3,1,278,57,464,122,103,689
+Greece,GR,#ccebc5,5,546,144,1093,198,300,1591
+Greenland,GL,#b3cde3,1,5,5,0,0,7,7
+Grenada,GD,#fed9a6,2,9,3,0,3,3,6
+Guatemala,GT,#ccebc5,5,189,42,18,67,85,170
+Guinea,GN,#fbb4ae,3,25,11,0,10,15,25
+Guinea-Bissau,GW,#fed9a6,2,2,2,0,0,2,2
+Guyana,GY,#ccebc5,5,12,4,1,4,7,12
+Haiti,HT,#fbb4ae,3,13,6,1,4,9,14
+Honduras,HN,#b3cde3,1,178,69,22,69,113,204
+Hungary,HU,#fbb4ae,3,681,170,1228,220,237,1685
+Iceland,IS,#ffffcc,4,168,55,2248,86,103,2437
+India,IN,#ffffcc,4,12451,2036,1682,3976,3663,9321
+Indonesia,ID,#decbe4,0,7572,1618,6148,3232,3424,12804
+Iran,IR,#ccebc5,5,1791,394,158,474,510,1142
+Iraq,IQ,#decbe4,0,452,122,39,199,234,472
+Ireland,IE,#ccebc5,5,303,147,2255,114,330,2699
+Israel,IL,#ccebc5,5,935,195,2418,500,533,3451
+Italy,IT,#ffffcc,4,24606,923,17758,1911,1827,21496
+Jamaica,JM,#ccebc5,5,78,7,0,27,10,37
+Japan,JP,#ffffcc,4,3217,636,3686,1232,1455,6373
+Jordan,JO,#fbb4ae,3,128,37,51,66,96,213
+Kazakhstan,KZ,#fed9a6,2,815,127,454,278,286,1018
+Kenya,KE,#fed9a6,2,336,124,113,96,234,443
+Kiribati,KI,#decbe4,0,3,2,0,0,4,4
+"Korea, North",KP,#fed9a6,2,0,0,0,0,0,0
+"Korea, South",KR,#ccebc5,5,3221,726,711,1374,1397,3482
+Kosovo,XK,#ffffcc,4,0,0,0,0,0,0
+Kuwait,KW,#ffffcc,4,317,55,17,100,114,231
+Kyrgyzstan,KG,#ccebc5,5,178,31,78,51,54,183
+Laos,LA,#ccebc5,5,45,20,44,22,55,121
+Latvia,LV,#fbb4ae,3,561,133,498,188,234,920
+Lebanon,LB,#fed9a6,2,309,114,1,132,149,282
+Lesotho,LS,#b3cde3,1,10,6,13,4,12,29
+Liberia,LR,#ccebc5,5,12,11,4,1,17,22
+Libya,LY,#decbe4,0,78,20,5,29,34,68
+Liechtenstein,LI,#b3cde3,1,33,24,157,8,57,222
+Lithuania,LT,#decbe4,0,2173,126,2401,385,309,3095
+Luxembourg,LU,#fed9a6,2,355,75,4808,148,230,5186
+Macedonia,MK,#fed9a6,2,130,37,165,55,75,295
+Madagascar,MG,#b3cde3,1,20,5,398,7,13,418
+Malawi,MW,#fbb4ae,3,53,15,335,20,21,376
+Malaysia,MY,#ccebc5,5,981,201,2267,370,433,3070
+Maldives,MV,#fed9a6,2,27,9,546,8,28,582
+Mali,ML,#decbe4,0,8,5,32,4,12,48
+Malta,MT,#fbb4ae,3,74,35,79,25,71,175
+Marshall Is,MH,#ffffcc,4,3,3,5,0,8,13
+Mauritania,MR,#ffffcc,4,4,4,0,0,10,10
+Mauritius,MU,#ccebc5,5,1125,33,1846,395,88,2329
+Mexico,MX,#fed9a6,2,978,331,98,492,748,1338
+"Micronesia, Fed States of",FM,#fbb4ae,3,10,5,0,4,5,9
+Moldova,MD,#decbe4,0,463,97,1179,135,189,1503
+Monaco,MC,#b3cde3,1,28,2,36,7,7,50
+Mongolia,MN,#fbb4ae,3,116,39,81,59,67,207
+Montenegro,ME,#ccebc5,5,53,13,0,19,21,40
+Morocco,MA,#fbb4ae,3,59,16,6,30,37,73
+Mozambique,MZ,#fed9a6,2,45,22,61,16,46,123
+Namibia,,#ccebc5,5,0,0,0,0,0,0
+Nauru,NR,#b3cde3,1,5,3,0,2,6,8
+Nepal,NP,#ccebc5,5,316,104,10,141,152,303
+Netherlands,NL,#ffffcc,4,12862,791,27809,2331,2134,32274
+New Zealand,NZ,#b3cde3,1,1296,306,553,431,546,1530
+Nicaragua,NI,#fed9a6,2,44,19,0,13,31,44
+Niger,NE,#ccebc5,5,14,7,1,5,13,19
+Nigeria,NG,#ffffcc,4,574,163,145,253,341,739
+Norway,NO,#fed9a6,2,839,230,3352,375,380,4107
+Oman,OM,#decbe4,0,236,16,502,46,38,586
+Pakistan,PK,#b3cde3,1,993,192,629,368,368,1365
+Palau,PW,#ffffcc,4,3,3,0,0,6,6
+Panama,PA,#ccebc5,5,866,57,43,377,149,569
+Papua New Guinea,PG,#fed9a6,2,52,19,9,25,35,69
+Paraguay,PY,#ffffcc,4,248,69,168,74,117,359
+Peru,PE,#decbe4,0,284,104,55,136,229,420
+Philippines,PH,#fed9a6,2,1072,274,3252,570,677,4499
+Poland,PL,#ffffcc,4,6842,1533,5986,2805,3204,11995
+Portugal,PT,#ffffcc,4,319,73,553,105,144,802
+Qatar,QA,#b3cde3,1,86,12,57,25,31,113
+Romania,RO,#fed9a6,2,2980,539,2711,1075,1107,4893
+Russia,RU,#b3cde3,1,30893,3552,62748,7754,8100,78602
+Rwanda,RW,#decbe4,0,41,13,7,21,27,55
+Samoa,WS,#ffffcc,4,11,4,25,3,5,33
+San Marino,SM,#ccebc5,5,10,6,65,2,17,84
+Sao Tome & Principe,ST,#decbe4,0,2,2,1,0,5,6
+Saudi Arabia,SA,#fed9a6,2,591,116,430,266,242,938
+Senegal,SN,#b3cde3,1,33,7,5,8,14,27
+Serbia,RS,#decbe4,0,828,131,1497,235,262,1994
+Seychelles,SC,#ffffcc,4,60,41,172,13,89,274
+Sierra Leone,SL,#b3cde3,1,30,14,1,15,20,36
+Singapore,SG,#b3cde3,1,6208,290,5489,706,940,7135
+Slovakia,SK,#decbe4,0,685,153,442,309,262,1013
+Slovenia,SI,#decbe4,0,664,97,289,187,214,690
+Solomon Is,SB,#decbe4,0,16,7,18,6,10,34
+Somalia,SO,#fbb4ae,3,37,18,4,17,28,49
+South Africa,ZA,#decbe4,0,1875,544,10176,808,1263,12247
+South Sudan,SS,#ccebc5,5,30,18,2,13,39,54
+Spain,ES,#fed9a6,2,7611,800,3001,1278,1520,5799
+Sri Lanka,LK,#b3cde3,1,115,14,221,32,37,290
+St Kitts & Nevis,KN,#decbe4,0,7,3,0,1,6,7
+St Lucia,LC,#ccebc5,5,10,4,0,1,4,5
+St Vincent & the Grenadines,VC,#decbe4,0,1,1,0,0,1,1
+Sudan,SD,#fbb4ae,3,11,6,1,6,13,20
+Suriname,SR,#b3cde3,1,11,5,0,6,9,15
+Swaziland,SZ,#ccebc5,5,16,9,434,6,17,457
+Sweden,SE,#decbe4,0,45378,512,4864,3629,906,9399
+Switzerland,CH,#decbe4,0,2890,585,17652,929,1342,19923
+Syria,SY,#b3cde3,1,3,2,0,1,1,2
+Taiwan,TW,#fbb4ae,3,896,189,1173,961,438,2572
+Tajikistan,TJ,#fed9a6,2,69,19,1,29,37,67
+Tanzania,TZ,#ccebc5,5,221,58,28,96,121,245
+Thailand,TH,#fed9a6,2,2211,349,1524,773,784,3081
+Timor-Leste,TL,#b3cde3,1,21,10,0,8,20,28
+Togo,TG,#decbe4,0,6,6,47,1,8,56
+Tonga,TO,#fed9a6,2,8,4,11,3,10,24
+Trinidad & Tobago,TT,#ffffcc,4,34,14,0,19,24,43
+Tunisia,TN,#ccebc5,5,66,22,17,29,42,88
+Turkey,TR,#ffffcc,4,2148,460,914,765,803,2482
+Turkmenistan,TM,#decbe4,0,9,3,0,2,7,9
+Tuvalu,TV,#fed9a6,2,1,1,0,0,3,3
+Uganda,UG,#fbb4ae,3,123,28,14,52,49,115
+Ukraine,UA,#ccebc5,5,5596,1156,4747,1898,2321,8966
+United Arab Emirates,AE,#fbb4ae,3,878,68,1286,223,143,1652
+United Kingdom,GB,#decbe4,0,10043,1567,86193,3114,3851,93158
+United States,US,#ccebc5,5,263143,13138,63431,43749,34150,141330
+Uruguay,UY,#decbe4,0,429,18,1883,46,47,1976
+Uzbekistan,UZ,#ffffcc,4,271,62,9,74,85,168
+Vanuatu,VU,#b3cde3,1,13,8,8,5,11,24
+Vatican City,VA,#fed9a6,2,3,3,10,0,11,21
+Venezuela,VE,#decbe4,0,308,124,93,154,252,499
+Vietnam,VN,#ffffcc,4,1542,423,475,724,779,1978
+Western Sahara,EH,#ccebc5,5,0,0,0,0,0,0
+Yemen,YE,#ccebc5,5,3,3,0,0,10,10
+Zambia,ZM,#b3cde3,1,24,13,0,7,19,26
+Zimbabwe,ZW,#ffffcc,4,54,20,44,25,44,113

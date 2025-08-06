@@ -1,0 +1,1333 @@
+[
+  {
+    "source_date": 202401,
+    "source_community": 0,
+    "target_date": 202402,
+    "target_community": 2,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.6185063881208166,
+    "size_change_ratio": 1.7207489491784487
+  },
+  {
+    "source_date": 202401,
+    "source_community": 2,
+    "target_date": 202402,
+    "target_community": 31,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7868291559694284,
+    "size_change_ratio": 0.9246779767514923
+  },
+  {
+    "source_date": 202401,
+    "source_community": 1,
+    "target_date": 202402,
+    "target_community": 10,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8203120955070047,
+    "size_change_ratio": 0.8887075718015666
+  },
+  {
+    "source_date": 202401,
+    "source_community": 3,
+    "target_date": 202402,
+    "target_community": [
+      8,
+      35
+    ],
+    "event_type": "\u5206\u88c2",
+    "overlap_score": 0.40689995071463775
+  },
+  {
+    "source_date": 202401,
+    "source_community": 15,
+    "target_date": 202402,
+    "target_community": null,
+    "event_type": "\u6d88\u4ea1",
+    "similarity": 0
+  },
+  {
+    "source_date": 202401,
+    "source_community": 10,
+    "target_date": 202402,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8176,
+    "size_change_ratio": 1.076
+  },
+  {
+    "source_date": 202401,
+    "source_community": 5,
+    "target_date": 202402,
+    "target_community": 0,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.5989583333333334
+  },
+  {
+    "source_date": 202401,
+    "source_community": 13,
+    "target_date": 202402,
+    "target_community": 23,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.9879518072289156,
+    "size_change_ratio": 2.3795180722891565
+  },
+  {
+    "source_date": 202401,
+    "source_community": 4,
+    "target_date": 202402,
+    "target_community": 6,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.23809523809523808
+  },
+  {
+    "source_date": 202401,
+    "source_community": 14,
+    "target_date": 202402,
+    "target_community": 44,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202401,
+    "source_community": 16,
+    "target_date": 202402,
+    "target_community": 47,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202401,
+    "source_community": 18,
+    "target_date": 202402,
+    "target_community": 53,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202401,
+    "source_community": 19,
+    "target_date": 202402,
+    "target_community": 54,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202401,
+    "source_community": 20,
+    "target_date": 202402,
+    "target_community": 55,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202401,
+    "source_community": 9,
+    "target_date": 202402,
+    "target_community": 25,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202402,
+    "source_community": 2,
+    "target_date": 202403,
+    "target_community": 4,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 0.7037822918862053,
+    "size_change_ratio": 0.7222419612719844
+  },
+  {
+    "source_date": 202402,
+    "source_community": 31,
+    "target_date": 202403,
+    "target_community": 6,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.7293212968759981,
+    "size_change_ratio": 1.3316911577337978
+  },
+  {
+    "source_date": 202402,
+    "source_community": 10,
+    "target_date": 202403,
+    "target_community": 0,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7433070271232832,
+    "size_change_ratio": 1.0055086301872935
+  },
+  {
+    "source_date": 202402,
+    "source_community": 8,
+    "target_date": 202403,
+    "target_community": [
+      2,
+      12
+    ],
+    "event_type": "\u5206\u88c2",
+    "overlap_score": 0.41132867132867135
+  },
+  {
+    "source_date": 202402,
+    "source_community": [
+      9
+    ],
+    "target_date": 202403,
+    "target_community": 3,
+    "event_type": "\u5408\u5e76",
+    "overlap_score": 0.7570731707317073
+  },
+  {
+    "source_date": 202402,
+    "source_community": 28,
+    "target_date": 202403,
+    "target_community": 7,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.9814126394052045,
+    "size_change_ratio": 1.5074349442379182
+  },
+  {
+    "source_date": 202402,
+    "source_community": 0,
+    "target_date": 202403,
+    "target_community": 1,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.9910714285714286,
+    "size_change_ratio": 0.9739130434782609
+  },
+  {
+    "source_date": 202402,
+    "source_community": 37,
+    "target_date": 202403,
+    "target_community": 5,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.8222222222222222,
+    "size_change_ratio": 8.466666666666667
+  },
+  {
+    "source_date": 202402,
+    "source_community": 44,
+    "target_date": 202403,
+    "target_community": 20,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202402,
+    "source_community": 53,
+    "target_date": 202403,
+    "target_community": 17,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202402,
+    "source_community": 54,
+    "target_date": 202403,
+    "target_community": 18,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202402,
+    "source_community": 55,
+    "target_date": 202403,
+    "target_community": 19,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202402,
+    "source_community": 33,
+    "target_date": 202403,
+    "target_community": 13,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202402,
+    "source_community": 51,
+    "target_date": 202403,
+    "target_community": 16,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202403,
+    "source_community": 4,
+    "target_date": 202404,
+    "target_community": 0,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8227704381455974,
+    "size_change_ratio": 1.0509162464641495
+  },
+  {
+    "source_date": 202403,
+    "source_community": 6,
+    "target_date": 202404,
+    "target_community": 7,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 0.7736987268172983,
+    "size_change_ratio": 0.7338308457711443
+  },
+  {
+    "source_date": 202403,
+    "source_community": 0,
+    "target_date": 202404,
+    "target_community": 4,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.779751739930467,
+    "size_change_ratio": 1.1297479912344777
+  },
+  {
+    "source_date": 202403,
+    "source_community": 2,
+    "target_date": 202404,
+    "target_community": 1,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.6880643750290543,
+    "size_change_ratio": 1.5337975747388641
+  },
+  {
+    "source_date": 202403,
+    "source_community": 3,
+    "target_date": 202404,
+    "target_community": 3,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.7369253957127979,
+    "size_change_ratio": 1.2029268292682926
+  },
+  {
+    "source_date": 202403,
+    "source_community": 12,
+    "target_date": 202404,
+    "target_community": 2,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.013126893301918546
+  },
+  {
+    "source_date": 202403,
+    "source_community": 7,
+    "target_date": 202404,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8981481481481481,
+    "size_change_ratio": 0.7990135635018496
+  },
+  {
+    "source_date": 202403,
+    "source_community": 1,
+    "target_date": 202404,
+    "target_community": 8,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.9910714285714286,
+    "size_change_ratio": 1.6785714285714286
+  },
+  {
+    "source_date": 202403,
+    "source_community": 14,
+    "target_date": 202404,
+    "target_community": 20,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.020833333333333332
+  },
+  {
+    "source_date": 202403,
+    "source_community": 11,
+    "target_date": 202404,
+    "target_community": 15,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.7272727272727273,
+    "size_change_ratio": 12.545454545454545
+  },
+  {
+    "source_date": 202403,
+    "source_community": 20,
+    "target_date": 202404,
+    "target_community": 14,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202403,
+    "source_community": 17,
+    "target_date": 202404,
+    "target_community": 16,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202403,
+    "source_community": 19,
+    "target_date": 202404,
+    "target_community": 18,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 0,
+    "target_date": 202405,
+    "target_community": 8,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 0.7275202522148885,
+    "size_change_ratio": 0.7555295494441193
+  },
+  {
+    "source_date": 202404,
+    "source_community": 1,
+    "target_date": 202405,
+    "target_community": 7,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.5159634533566485,
+    "size_change_ratio": 0.9334637964774951
+  },
+  {
+    "source_date": 202404,
+    "source_community": 4,
+    "target_date": 202405,
+    "target_community": 2,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8589972691224749,
+    "size_change_ratio": 1.0599692879657319
+  },
+  {
+    "source_date": 202404,
+    "source_community": 7,
+    "target_date": 202405,
+    "target_community": 13,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.8042590621705861,
+    "size_change_ratio": 1.2259887005649717
+  },
+  {
+    "source_date": 202404,
+    "source_community": 3,
+    "target_date": 202405,
+    "target_community": 4,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8345339264343938,
+    "size_change_ratio": 0.9056501757231684
+  },
+  {
+    "source_date": 202404,
+    "source_community": 9,
+    "target_date": 202405,
+    "target_community": 24,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.004629629629629629
+  },
+  {
+    "source_date": 202404,
+    "source_community": 15,
+    "target_date": 202405,
+    "target_community": 15,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.9855072463768116,
+    "size_change_ratio": 7.1352657004830915
+  },
+  {
+    "source_date": 202404,
+    "source_community": 8,
+    "target_date": 202405,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 0.9946808510638298
+  },
+  {
+    "source_date": 202404,
+    "source_community": 5,
+    "target_date": 202405,
+    "target_community": 3,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 12,
+    "target_date": 202405,
+    "target_community": 18,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8333333333333334,
+    "size_change_ratio": 0.8571428571428571
+  },
+  {
+    "source_date": 202404,
+    "source_community": 14,
+    "target_date": 202405,
+    "target_community": 22,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 21,
+    "target_date": 202405,
+    "target_community": 25,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 16,
+    "target_date": 202405,
+    "target_community": 19,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 17,
+    "target_date": 202405,
+    "target_community": 20,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 18,
+    "target_date": 202405,
+    "target_community": 21,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 11,
+    "target_date": 202405,
+    "target_community": 17,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202404,
+    "source_community": 22,
+    "target_date": 202405,
+    "target_community": 26,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 13,
+    "target_date": 202406,
+    "target_community": 0,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.6111649158604312,
+    "size_change_ratio": 1.0197802197802197
+  },
+  {
+    "source_date": 202405,
+    "source_community": 2,
+    "target_date": 202406,
+    "target_community": 14,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8282088736413943,
+    "size_change_ratio": 0.8770110560426992
+  },
+  {
+    "source_date": 202405,
+    "source_community": 8,
+    "target_date": 202406,
+    "target_community": 6,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7125004104176775,
+    "size_change_ratio": 1.076827757125155
+  },
+  {
+    "source_date": 202405,
+    "source_community": 4,
+    "target_date": 202406,
+    "target_community": [
+      3
+    ],
+    "event_type": "\u5206\u88c2",
+    "overlap_score": 0.6035820895522388
+  },
+  {
+    "source_date": 202405,
+    "source_community": [
+      7,
+      15
+    ],
+    "target_date": 202406,
+    "target_community": 7,
+    "event_type": "\u5408\u5e76",
+    "overlap_score": 0.6129032258064516
+  },
+  {
+    "source_date": 202405,
+    "source_community": 9,
+    "target_date": 202406,
+    "target_community": 11,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 0.8823529411764706
+  },
+  {
+    "source_date": 202405,
+    "source_community": 0,
+    "target_date": 202406,
+    "target_community": 30,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.6451612903225806
+  },
+  {
+    "source_date": 202405,
+    "source_community": 6,
+    "target_date": 202406,
+    "target_community": 5,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.6666666666666666
+  },
+  {
+    "source_date": 202405,
+    "source_community": 3,
+    "target_date": 202406,
+    "target_community": 4,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 22,
+    "target_date": 202406,
+    "target_community": 28,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 25,
+    "target_date": 202406,
+    "target_community": 31,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 19,
+    "target_date": 202406,
+    "target_community": 24,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 24,
+    "target_date": 202406,
+    "target_community": 29,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 20,
+    "target_date": 202406,
+    "target_community": 25,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 21,
+    "target_date": 202406,
+    "target_community": 26,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 17,
+    "target_date": 202406,
+    "target_community": 23,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202405,
+    "source_community": 26,
+    "target_date": 202406,
+    "target_community": 32,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 7,
+    "target_date": 202407,
+    "target_community": 0,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 0.5923046184973159,
+    "size_change_ratio": 0.7815779246016323
+  },
+  {
+    "source_date": 202406,
+    "source_community": 0,
+    "target_date": 202407,
+    "target_community": 14,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8342461256997482,
+    "size_change_ratio": 1.0208565072302558
+  },
+  {
+    "source_date": 202406,
+    "source_community": 6,
+    "target_date": 202407,
+    "target_community": 4,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7435402351146729,
+    "size_change_ratio": 0.8560126582278481
+  },
+  {
+    "source_date": 202406,
+    "source_community": 14,
+    "target_date": 202407,
+    "target_community": 3,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8376758313079671,
+    "size_change_ratio": 1.1078942792557815
+  },
+  {
+    "source_date": 202406,
+    "source_community": null,
+    "target_date": 202407,
+    "target_community": 5,
+    "event_type": "\u65b0\u751f",
+    "similarity": 0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 3,
+    "target_date": 202407,
+    "target_community": 8,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.9083793738489871,
+    "size_change_ratio": 1.033609576427256
+  },
+  {
+    "source_date": 202406,
+    "source_community": 11,
+    "target_date": 202407,
+    "target_community": 6,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.006060606060606
+  },
+  {
+    "source_date": 202406,
+    "source_community": 19,
+    "target_date": 202407,
+    "target_community": 11,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.9764705882352941,
+    "size_change_ratio": 1.011764705882353
+  },
+  {
+    "source_date": 202406,
+    "source_community": 30,
+    "target_date": 202407,
+    "target_community": 26,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8301886792452831,
+    "size_change_ratio": 0.8833333333333333
+  },
+  {
+    "source_date": 202406,
+    "source_community": 9,
+    "target_date": 202407,
+    "target_community": 18,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.9534883720930233,
+    "size_change_ratio": 8.69767441860465
+  },
+  {
+    "source_date": 202406,
+    "source_community": 17,
+    "target_date": 202407,
+    "target_community": 7,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.1904761904761905
+  },
+  {
+    "source_date": 202406,
+    "source_community": 4,
+    "target_date": 202407,
+    "target_community": 1,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 5,
+    "target_date": 202407,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 28,
+    "target_date": 202407,
+    "target_community": 17,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 27,
+    "target_date": 202407,
+    "target_community": 23,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 24,
+    "target_date": 202407,
+    "target_community": 20,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 29,
+    "target_date": 202407,
+    "target_community": 25,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 25,
+    "target_date": 202407,
+    "target_community": 21,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 26,
+    "target_date": 202407,
+    "target_community": 22,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 23,
+    "target_date": 202407,
+    "target_community": 16,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202406,
+    "source_community": 32,
+    "target_date": 202407,
+    "target_community": 27,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 14,
+    "target_date": 202408,
+    "target_community": 13,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7764791353898077,
+    "size_change_ratio": 0.8787796240806319
+  },
+  {
+    "source_date": 202407,
+    "source_community": 3,
+    "target_date": 202408,
+    "target_community": 2,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8308170743672619,
+    "size_change_ratio": 0.950482617907871
+  },
+  {
+    "source_date": 202407,
+    "source_community": 0,
+    "target_date": 202408,
+    "target_community": 0,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.6465832899924416,
+    "size_change_ratio": 1.218879496104757
+  },
+  {
+    "source_date": 202407,
+    "source_community": 4,
+    "target_date": 202408,
+    "target_community": 15,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.7920676138736107,
+    "size_change_ratio": 1.237691144345488
+  },
+  {
+    "source_date": 202407,
+    "source_community": [
+      8
+    ],
+    "target_date": 202408,
+    "target_community": 21,
+    "event_type": "\u5408\u5e76",
+    "overlap_score": 0.6676337846550613
+  },
+  {
+    "source_date": 202407,
+    "source_community": 5,
+    "target_date": 202408,
+    "target_community": null,
+    "event_type": "\u6d88\u4ea1",
+    "similarity": 0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 18,
+    "target_date": 202408,
+    "target_community": 22,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.9946524064171123,
+    "size_change_ratio": 1.032085561497326
+  },
+  {
+    "source_date": 202407,
+    "source_community": 6,
+    "target_date": 202408,
+    "target_community": 3,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.5421686746987951
+  },
+  {
+    "source_date": 202407,
+    "source_community": 11,
+    "target_date": 202408,
+    "target_community": 23,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.1046511627906976
+  },
+  {
+    "source_date": 202407,
+    "source_community": 1,
+    "target_date": 202408,
+    "target_community": 4,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 9,
+    "target_date": 202408,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 17,
+    "target_date": 202408,
+    "target_community": 20,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 20,
+    "target_date": 202408,
+    "target_community": 24,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 25,
+    "target_date": 202408,
+    "target_community": 27,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 29,
+    "target_date": 202408,
+    "target_community": 28,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 15,
+    "target_date": 202408,
+    "target_community": 18,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 21,
+    "target_date": 202408,
+    "target_community": 25,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 22,
+    "target_date": 202408,
+    "target_community": 26,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202407,
+    "source_community": 16,
+    "target_date": 202408,
+    "target_community": 19,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 15,
+    "target_date": 202409,
+    "target_community": 0,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7972100184122863,
+    "size_change_ratio": 0.9607630167673613
+  },
+  {
+    "source_date": 202408,
+    "source_community": 0,
+    "target_date": 202409,
+    "target_community": 6,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 0.6519765427396116,
+    "size_change_ratio": 0.5823077446114096
+  },
+  {
+    "source_date": 202408,
+    "source_community": 13,
+    "target_date": 202409,
+    "target_community": 2,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.5054438921194658,
+    "size_change_ratio": 1.2740235585864848
+  },
+  {
+    "source_date": 202408,
+    "source_community": 2,
+    "target_date": 202409,
+    "target_community": 4,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.7461890417953057,
+    "size_change_ratio": 0.8671565389696169
+  },
+  {
+    "source_date": 202408,
+    "source_community": 21,
+    "target_date": 202409,
+    "target_community": [
+      1,
+      7
+    ],
+    "event_type": "\u5206\u88c2",
+    "overlap_score": 0.8320438426821406
+  },
+  {
+    "source_date": 202408,
+    "source_community": 22,
+    "target_date": 202409,
+    "target_community": 15,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.9506493506493506,
+    "size_change_ratio": 0.9974093264248705
+  },
+  {
+    "source_date": 202408,
+    "source_community": 23,
+    "target_date": 202409,
+    "target_community": 21,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.021052631578947368
+  },
+  {
+    "source_date": 202408,
+    "source_community": 3,
+    "target_date": 202409,
+    "target_community": 8,
+    "event_type": "\u589e\u52a0",
+    "similarity": 1.0,
+    "size_change_ratio": 2.1
+  },
+  {
+    "source_date": 202408,
+    "source_community": 6,
+    "target_date": 202409,
+    "target_community": 11,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.631578947368421,
+    "size_change_ratio": 0.8636363636363636
+  },
+  {
+    "source_date": 202408,
+    "source_community": 5,
+    "target_date": 202409,
+    "target_community": 12,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 1.0,
+    "size_change_ratio": 0.3333333333333333
+  },
+  {
+    "source_date": 202408,
+    "source_community": 4,
+    "target_date": 202409,
+    "target_community": 10,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 9,
+    "target_date": 202409,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 20,
+    "target_date": 202409,
+    "target_community": 20,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 24,
+    "target_date": 202409,
+    "target_community": 16,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 27,
+    "target_date": 202409,
+    "target_community": 22,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 26,
+    "target_date": 202409,
+    "target_community": 17,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202408,
+    "source_community": 19,
+    "target_date": 202409,
+    "target_community": 13,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202409,
+    "source_community": 2,
+    "target_date": 202410,
+    "target_community": 13,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.6809916478750403,
+    "size_change_ratio": 1.2384428223844282
+  },
+  {
+    "source_date": 202409,
+    "source_community": 0,
+    "target_date": 202410,
+    "target_community": 11,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.6346775157835747,
+    "size_change_ratio": 1.3830989896135095
+  },
+  {
+    "source_date": 202409,
+    "source_community": 4,
+    "target_date": 202410,
+    "target_community": 8,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.6744672121008537,
+    "size_change_ratio": 1.612491669046939
+  },
+  {
+    "source_date": 202409,
+    "source_community": 6,
+    "target_date": 202410,
+    "target_community": [
+      2,
+      32
+    ],
+    "event_type": "\u5206\u88c2",
+    "overlap_score": 0.7156702475478749
+  },
+  {
+    "source_date": 202409,
+    "source_community": 7,
+    "target_date": 202410,
+    "target_community": null,
+    "event_type": "\u6d88\u4ea1",
+    "similarity": 0
+  },
+  {
+    "source_date": 202409,
+    "source_community": null,
+    "target_date": 202410,
+    "target_community": 20,
+    "event_type": "\u65b0\u751f",
+    "similarity": 0
+  },
+  {
+    "source_date": 202409,
+    "source_community": 1,
+    "target_date": 202410,
+    "target_community": 5,
+    "event_type": "\u51cf\u5c11",
+    "similarity": 0.6666666666666666,
+    "size_change_ratio": 0.010221465076660987
+  },
+  {
+    "source_date": 202409,
+    "source_community": 15,
+    "target_date": 202410,
+    "target_community": 31,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.9766233766233766,
+    "size_change_ratio": 1.3246753246753247
+  },
+  {
+    "source_date": 202409,
+    "source_community": 8,
+    "target_date": 202410,
+    "target_community": 17,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.8835978835978836,
+    "size_change_ratio": 1.0158730158730158
+  },
+  {
+    "source_date": 202409,
+    "source_community": 23,
+    "target_date": 202410,
+    "target_community": 7,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.5672514619883041,
+    "size_change_ratio": 1.391812865497076
+  },
+  {
+    "source_date": 202409,
+    "source_community": 11,
+    "target_date": 202410,
+    "target_community": 9,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 0.6857142857142857,
+    "size_change_ratio": 0.9210526315789473
+  },
+  {
+    "source_date": 202409,
+    "source_community": 3,
+    "target_date": 202410,
+    "target_community": 0,
+    "event_type": "\u589e\u52a0",
+    "similarity": 0.5333333333333333,
+    "size_change_ratio": 4.4
+  },
+  {
+    "source_date": 202409,
+    "source_community": 10,
+    "target_date": 202410,
+    "target_community": 23,
+    "event_type": "\u5ef6\u7eed",
+    "similarity": 1.0,
+    "size_change_ratio": 1.0
+  },
+  {
+    "source_date": 202409,
+    "source_community": 14,
+    "target_date": 202410,
+    "target_community": 38,
+    "event_type": "\u589e\u52a0",
+    "similarity": 1.0,
+    "size_change_ratio": 11.0
+  }
+]

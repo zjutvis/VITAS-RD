@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社区演变可视化</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            width: 100%;
+            max-width: 1800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .node {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+        .link {
+            fill: none;
+            stroke-width: 2px;
+        }
+        .link.continuation {
+            stroke: #666;
+        }
+        .link.split {
+            stroke: #ff7f0e;
+        }
+        .link.merge {
+            stroke: #2ca02c;
+        }
+        .link.death {
+            stroke: #d62728;
+            stroke-dasharray: 5,5;
+        }
+        .link.birth {
+            stroke: #9467bd;
+            stroke-dasharray: 2,2;
+        }
+        .time-label {
+            font-size: 14px;
+            font-weight: bold;
+            text-anchor: middle;
+        }
+        .legend {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 0 15px;
+        }
+        .legend-line {
+            width: 20px;
+            height: 2px;
+            margin-right: 5px;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">社区演变可视化（202401起始）</h1>
+        <div id="graph"></div>
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-line" style="background-color: #666;"></div>
+                <span>延续</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line" style="background-color: #ff7f0e;"></div>
+                <span>分裂</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line" style="background-color: #2ca02c;"></div>
+                <span>合并</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line" style="background-color: #d62728; height: 0px; border-top: 2px dashed #d62728;"></div>
+                <span>消亡</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line" style="background-color: #9467bd; height: 0px; border-top: 2px dashed #9467bd;"></div>
+                <span>新生</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 创建SVG容器
+        const width = 1700;
+        const height = 850;
+        const svg = d3.select("#graph")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // 创建箭头定义
+        svg.append("defs").append("marker")
+            .attr("id", "arrowhead")
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 20)
+            .attr("refY", 0)
+            .attr("markerWidth", 6)
+            .attr("markerHeight", 6)
+            .attr("orient", "auto")
+            .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("fill", "#999");
+
+        // 添加工具提示
+        const tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip");
+
+        // 定义时间列表
+        const timePoints = ["202401", "202402", "202403", "202404", "202405", "202406", "202407", "202408", "202409", "202410"];
+
+        // 模拟社区数据 - 以下为示例数据，实际使用时需要替换为您的真实数据
+        // 格式 {id: 唯一ID, communityId: 社区ID, timeIndex: 时间索引, size: 大小}
+        const nodes = [];
+        const links = [];
+
+        // 假设我们有15个初始社区，添加初始节点
+        for (let i = 0; i < 15; i++) {
+            nodes.push({
+                id: `202401-${i}`,
+                communityId: i,
+                timeIndex: 0,
+                size: 30 + Math.random() * 20
+            });
+        }
+
+        // 以下是示例演变关系，实际使用时需要替换
+        // 示例1：延续关系
+        addEvolution("202401-0", "202402-2", "continuation");
+        addEvolution("202401-1", "202402-10", "continuation");
+
+        // 示例2：分裂关系 - 社区3分裂为社区8和35
+        const split1Source = "202401-3";
+        nodes.push({id: "202402-8", communityId: 8, timeIndex: 1, size: 25});
+        nodes.push({id: "202402-35", communityId: 35, timeIndex: 1, size: 22});
+        addEvolution(split1Source, "202402-8", "split");
+        addEvolution(split1Source, "202402-35", "split");
+
+        // 示例3：合并关系 - 社区8和37合并为社区5
+        nodes.push({id: "202402-37", communityId: 37, timeIndex: 1, size: 15});
+        nodes.push({id: "202403-5", communityId: 5, timeIndex: 2, size: 30});
+        addEvolution("202402-8", "202403-5", "merge");
+        addEvolution("202402-37", "202403-5", "merge");
+
+        // 添加更多示例关系...
+
+        // 为了简化模拟，让我们基于初始社区继续添加一些随机的演变关系
+        for (let t = 0; t < timePoints.length - 1; t++) {
+            const currentTimeNodes = nodes.filter(n => n.timeIndex === t);
+
+            currentTimeNodes.forEach(node => {
+                // 70%的几率发生延续
+                if (Math.random() < 0.7) {
+                    const newId = node.communityId;
+                    const targetNodeId = `${timePoints[t+1]}-${newId}`;
+
+                    // 检查节点是否已存在
+                    if (!nodes.some(n => n.id === targetNodeId)) {
+                        nodes.push({
+                            id: targetNodeId,
+                            communityId: newId,
+                            timeIndex: t+1,
+                            size: node.size * (0.8 + Math.random() * 0.4) // 随机变化大小
+                        });
+                    }
+
+                    addEvolution(node.id, targetNodeId, "continuation");
+                }
+                // 10%几率消亡
+                else if (Math.random() < 0.3) {
+                    // 标记为死亡，不创建新节点
+                    addEvolution(node.id, null, "death");
+                }
+                // 20%几率分裂
+                else {
+                    const newId1 = Math.floor(Math.random() * 50) + 15;
+                    const newId2 = Math.floor(Math.random() * 50) + 15;
+
+                    const targetNodeId1 = `${timePoints[t+1]}-${newId1}`;
+                    const targetNodeId2 = `${timePoints[t+1]}-${newId2}`;
+
+                    if (!nodes.some(n => n.id === targetNodeId1)) {
+                        nodes.push({
+                            id: targetNodeId1,
+                            communityId: newId1,
+                            timeIndex: t+1,
+                            size: node.size * 0.6
+                        });
+                    }
+
+                    if (!nodes.some(n => n.id === targetNodeId2)) {
+                        nodes.push({
+                            id: targetNodeId2,
+                            communityId: newId2,
+                            timeIndex: t+1,
+                            size: node.size * 0.5
+                        });
+                    }
+
+                    addEvolution(node.id, targetNodeId1, "split");
+                    addEvolution(node.id, targetNodeId2, "split");
+                }
+            });
+
+            // 添加一些新生节点
+            if (Math.random() < 0.3) {
+                const newId = Math.floor(Math.random() * 100) + 50;
+                const newNodeId = `${timePoints[t+1]}-${newId}`;
+
+                nodes.push({
+                    id: newNodeId,
+                    communityId: newId,
+                    timeIndex: t+1,
+                    size: 15 + Math.random() * 15
+                });
+
+                addEvolution(null, newNodeId, "birth");
+            }
+        }
+
+        // 添加演变关系的辅助函数
+        function addEvolution(sourceId, targetId, type) {
+            // 处理消亡和新生的特殊情况
+            if (type === "death") {
+                links.push({
+                    id: `link-${sourceId}-death`,
+                    source: sourceId,
+                    target: `${sourceId}-death`, // 虚拟目标
+                    type: type
+                });
+                // 添加虚拟节点用于显示死亡线条终点
+                nodes.push({
+                    id: `${sourceId}-death`,
+                    virtual: true,
+                    timeIndex: nodes.find(n => n.id === sourceId).timeIndex + 0.5,
+                    size: 0
+                });
+                return;
+            }
+
+            if (type === "birth") {
+                const targetTimeIndex = nodes.find(n => n.id === targetId).timeIndex;
+                links.push({
+                    id: `link-birth-${targetId}`,
+                    source: `birth-${targetId}`, // 虚拟来源
+                    target: targetId,
+                    type: type
+                });
+                // 添加虚拟节点用于显示新生线条起点
+                nodes.push({
+                    id: `birth-${targetId}`,
+                    virtual: true,
+                    timeIndex: targetTimeIndex - 0.5,
+                    size: 0
+                });
+                return;
+            }
+
+            links.push({
+                id: `link-${sourceId}-${targetId}`,
+                source: sourceId,
+                target: targetId,
+                type: type
+            });
+        }
+
+        // 创建时间轴
+        const timeGroup = svg.append("g").attr("class", "time-axis");
+
+        timePoints.forEach((time, i) => {
+            timeGroup.append("line")
+                .attr("x1", 100 + i * (width-200)/(timePoints.length-1))
+                .attr("y1", 50)
+                .attr("x2", 100 + i * (width-200)/(timePoints.length-1))
+                .attr("y2", height - 50)
+                .attr("stroke", "#ddd")
+                .attr("stroke-width", 1)
+                .attr("stroke-dasharray", "3,3");
+
+            timeGroup.append("text")
+                .attr("class", "time-label")
+                .attr("x", 100 + i * (width-200)/(timePoints.length-1))
+                .attr("y", 30)
+                .text(time);
+        });
+
+        // 创建力导向图布局
+        const simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("collide", d3.forceCollide().radius(d => (d.size || 10) / 2 + 10).iterations(2))
+            .force("x", d3.forceX().x(d => 100 + d.timeIndex * (width-200)/(timePoints.length-1)).strength(1))
+            .force("y", d3.forceY().y(height / 2).strength(0.1));
+
+        // 绘制连线
+        const link = svg.append("g")
+            .selectAll("path")
+            .data(links)
+            .join("path")
+            .attr("class", d => `link ${d.type}`)
+            .attr("id", d => d.id)
+            .attr("marker-end", d => d.type !== "death" && d.type !== "birth" ? "url(#arrowhead)" : null)
+            .style("stroke", d => {
+                switch(d.type) {
+                    case "continuation": return "#666";
+                    case "split": return "#ff7f0e";
+                    case "merge": return "#2ca02c";
+                    case "death": return "#d62728";
+                    case "birth": return "#9467bd";
+                    default: return "#999";
+                }
+            });
+
+        // 绘制节点
+        const node = svg.append("g")
+            .selectAll("circle")
+            .data(nodes.filter(d => !d.virtual))
+            .join("circle")
+            .attr("class", "node")
+            .attr("r", d => (d.size || 20) / 2)
+            .attr("fill", d => {
+                // 使用社区ID生成不同的颜色
+                return d3.interpolateRainbow(d.communityId / 50);
+            })
+            .call(drag(simulation))
+            .on("mouseover", function(event, d) {
+                d3.select(this).attr("stroke", "#000").attr("stroke-width", 2);
+
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+
+                tooltip.html(`社区ID: ${d.communityId}<br>时间: ${timePoints[d.timeIndex]}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 28) + "px");
+            })
+            .on("mouseout", function() {
+                d3.select(this).attr("stroke", "#fff").attr("stroke-width", 1.5);
+
+                tooltip.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+            });
+
+        // 添加社区ID标签
+        const labels = svg.append("g")
+            .selectAll("text")
+            .data(nodes.filter(d => !d.virtual))
+            .join("text")
+            .attr("font-size", "10px")
+            .attr("text-anchor", "middle")
+            .attr("dy", "0.35em")
+            .text(d => d.communityId);
+
+        // 模拟力导向图布局
+        simulation.on("tick", () => {
+            // 更新连线路径
+            link.attr("d", d => {
+                const sourceNode = nodes.find(n => n.id === d.source.id || n.id === d.source);
+                const targetNode = nodes.find(n => n.id === d.target.id || n.id === d.target);
+
+                if (!sourceNode || !targetNode) return "";
+
+                // 计算控制点，创建曲线
+                const midX = (sourceNode.x + targetNode.x) / 2;
+                const midY = (sourceNode.y + targetNode.y) / 2 - 30;
+
+                return `M${sourceNode.x},${sourceNode.y} Q${midX},${midY} ${targetNode.x},${targetNode.y}`;
+            });
+
+            // 更新节点位置
+            node
+                .attr("cx", d => d.x = Math.max(d.size/2, Math.min(width - d.size/2, d.x)))
+                .attr("cy", d => d.y = Math.max(d.size/2, Math.min(height - d.size/2, d.y)));
+
+            // 更新标签位置
+            labels
+                .attr("x", d => d.x)
+                .attr("y", d => d.y);
+        });
+
+        // 拖拽功能
+        function drag(simulation) {
+            function dragstarted(event) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                event.subject.fx = event.subject.x;
+                event.subject.fy = event.subject.y;
+            }
+
+            function dragged(event) {
+                event.subject.fx = event.x;
+                event.subject.fy = event.y;
+            }
+
+            function dragended(event) {
+                if (!event.active) simulation.alphaTarget(0);
+                event.subject.fx = null;
+                event.subject.fy = null;
+            }
+
+            return d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+        }
+    </script>
+</body>
+</html>
